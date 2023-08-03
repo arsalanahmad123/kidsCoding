@@ -1766,6 +1766,10 @@ html {
   margin-top: 0.75rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1788,10 +1792,6 @@ html {
 
 .mt-\[600px\] {
   margin-top: 600px;
-}
-
-.mt-32 {
-  margin-top: 8rem;
 }
 
 .block {
@@ -1838,10 +1838,6 @@ html {
   height: auto;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1872,6 +1868,14 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[95\%\] {
+  width: 95%;
 }
 
 .max-w-2xl {
@@ -2058,6 +2062,11 @@ html {
 .bg-orange-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+}
+
+.bg-orange-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-5 {
@@ -2817,12 +2826,12 @@ html {
     margin-top: 4rem;
   }
 
-  .lg\:mt-32 {
-    margin-top: 8rem;
-  }
-
   .lg\:mt-3 {
     margin-top: 0.75rem;
+  }
+
+  .lg\:mt-32 {
+    margin-top: 8rem;
   }
 
   .lg\:block {
