@@ -1632,6 +1632,10 @@ html {
   margin-right: auto;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1686,6 +1690,22 @@ html {
 
 .top-\[90px\] {
   top: 90px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-5 {
+  right: 1.25rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
 }
 
 .z-10 {
@@ -1870,14 +1890,6 @@ html {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[95\%\] {
-  width: 95%;
-}
-
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -2059,14 +2071,14 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-orange-300 {
+.bg-green-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
 
-.bg-orange-400 {
+.bg-green-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-5 {
@@ -2916,6 +2928,10 @@ html {
     padding: 2.5rem;
   }
 
+  .lg\:p-5 {
+    padding: 1.25rem;
+  }
+
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -2961,6 +2977,10 @@ html {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:font-bold {
+    font-weight: 700;
   }
 }
 
